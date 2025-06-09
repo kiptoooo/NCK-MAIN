@@ -1,0 +1,48 @@
+# Ignore log files
+*.log
+
+# macOS
+.DS_Store
+
+# IDE / editor settings
+/.idea
+/.vscode
+/.fleet
+/.zed
+/.nova
+Homestead.json
+Homestead.yaml
+
+# Caches & tool-specific
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+npm-debug.log
+yarn-error.log
+Thumbs.db
+
+# Environment files (optional – but usually you do want to keep these out)
+/.env
+/.env.backup
+/.env.production
+
+# Build artifacts
+/public/build
+/public/hot
+
+# Auth credential file
+/auth.json
+
+# Storage keys & pail
+/storage/*.key
+/storage/pail
+
+# Always include your NCK folder, even if you ignore other storage
+!storage/NCK/
+!storage/NCK/**
+
+# By default we DO NOT ignore vendor/ or node_modules/,
+# so they’ll be tracked.
+# If you see them commented below, remove the leading “#”
+#/vendor
+#/node_modules
