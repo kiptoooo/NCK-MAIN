@@ -46,3 +46,8 @@ Thumbs.db
 # If you see them commented below, remove the leading “#”
 #/vendor
 #/node_modules
+# include everything in storage/
+!storage/
+!storage/**
+
+
